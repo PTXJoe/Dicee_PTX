@@ -22,7 +22,8 @@
             android:layout_width="wrap_content"
             android:layout_height="270dp"
             android:layout_centerHorizontal="true"
-            app:srcCompat="@drawable/dicee_logo" />
+            app:srcCompat="@drawable/dicee_logo"
+            android:contentDescription="@string/content_description" />
     </RelativeLayout>
 
     <LinearLayout
@@ -35,14 +36,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/dice2" />
+            app:srcCompat="@drawable/dice2"
+            android:contentDescription="@string/image_leftDice" />
 
         <ImageView
             android:id="@+id/image_rightDice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/dice1" />
+            app:srcCompat="@drawable/dice1"
+            android:contentDescription="@string/image_rightDice" />
     </LinearLayout>
 
     <RelativeLayout
